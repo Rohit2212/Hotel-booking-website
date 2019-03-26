@@ -1,0 +1,133 @@
+body{
+/*background-color:#414345;*/
+background-image: linear-gradient(to right top, #11040c, #19080b, #1e0d07, #1f1202, #1d1802, #161b06, #0c1d0e, #011e17, #001c1e, #001922, #071421, #120f1d);
+}
+.navi{
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    font-size: x-large; 
+    }
+.common{
+display: flex;
+}
+.intro{
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    max-width: 40%;
+    max-height: 35%;
+    float: left;
+}
+.slideshow{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 0px;
+    max-width: 50%;
+    max-height: 45%;
+    overflow: hidden;
+}
+.butpostleft{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: brown;
+    height: 50px;
+    width: 40px;
+}
+.butpostright{
+    position: absolute;
+    right: -0.75%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: brown;
+    height: 50px;
+    width: 40px;
+}
+.butpostleft:hover,.butpostright:hover{
+    background-color: black;
+    color: crimson;
+}
+.common::after{
+    clear: both;
+    content: " ";
+    display: block;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.sirfh2{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: bisque;
+    border-radius:10px; 
+}
+
+.space{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 5px;
+    color: gold;
+    padding: 10px;
+}
+.space:hover{
+    background-color: brown;
+    color: beige;
+}
+.connect{
+    text-align: center;
+}
+.connect h3{
+    color: chartreuse;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+ 
